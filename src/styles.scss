@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+
+$primary-colour: #e68a45;
+$secondary-colour: rgb(34, 34, 34);
+
+body {
+    margin: unset;
+    font-family: 'Bahiana';
+}
+
+h1 {
+    margin: 1%;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}

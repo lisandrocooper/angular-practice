@@ -1,0 +1,5 @@
+<div class="header">
+    <a *ngFor="let option of options" class="diagonal-box" id={{option.id}} routerLink={{option.route}}>
+        <div class="content">{{option.text}}</div>
+    </a>
+</div>
